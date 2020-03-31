@@ -28,9 +28,9 @@
 
             </li>
             <li class="list-group-item list-group-item-dark">Click on Start to start a new Game</li>
-            <li class="list-group-item list-group-item-dark">Submit a suitable answer</li>
-            <li class="list-group-item list-group-item-dark">Wait for your friends to answer</li>
-            <li class="list-group-item list-group-item-dark">Submit the answer that suits you</li>
+            <li class="list-group-item list-group-item-dark">Choose suitable category and Difficulty</li>
+            <li class="list-group-item list-group-item-dark">Submit your answer to the trivia question</li>
+            <li class="list-group-item list-group-item-dark">Outwit your friends with your Answer</li>
             <li class="list-group-item list-group-item-dark">Chat while playing</li>
             <li class="list-group-item list-group-item-dark">We are not storing any Data</li>
           </ul>
@@ -72,9 +72,27 @@
  <div class="col-md-2"></div>
  </div>
 <div class="row">
-<div class="col-md-1"></div>
+<div class="col-md-1" ><p class="lead" id="online1" ></p><ul id="onlinepeople"></ul></div>
 <div id="one1" class="col-md-4"></div>
-<div class="col-md-2"></div>
+<div class="col-md-2">
+  <div id="popup"></div>
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"id="winner">Winner for this round is...</h4>
+        </div>
+        <div class="modal-body">
+          <p id="winnername"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <div id="two2" class="col-md-4"></div>
 <div class="col-md-1"></div>
 </div>
